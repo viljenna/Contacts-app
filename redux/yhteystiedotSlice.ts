@@ -3,7 +3,7 @@ import { createAsyncThunk, createSlice, PayloadAction } from '@reduxjs/toolkit';
 export const haeYhteystiedot = createAsyncThunk("yhteystietolista/haeYhteystiedot", async() => {
     let response : any = [];
 
-    await fetch("http://192.168.68.58:3000/api/yhteystiedot", {
+    await fetch("http://YOUR_IP_ADDRESS:3000/api/yhteystiedot", {
         method : "GET"
     })
         .then((response) => response.json())
@@ -16,7 +16,7 @@ export const haeYhteystiedot = createAsyncThunk("yhteystietolista/haeYhteystiedo
 })
 
 export const tallennaYhteystieto = createAsyncThunk("yhteystietolista/tallennaYhteystieto", async (payload, {getState}) => {
-     const yhteys = await fetch("http://192.168.68.58:3000/api/yhteystiedot", {
+     const yhteys = await fetch("http://YOUR_IP_ADDRESS:3000/api/yhteystiedot", {
          method : "POST",
          headers  : {
              "Content-Type" : "application/json"
