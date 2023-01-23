@@ -1,6 +1,6 @@
 # Contacts-app
 
-This is React Native app, that uses React Redux. User can add contacts and those will be saved to server. User can also add picture and delete contacts.
+This is React Native app, that uses React Redux. User can add contacts and those will be saved to server. User can also take picture and delete contacts.
 
 ## Installation
 First run npm install. After that go to /server and run npm install.
