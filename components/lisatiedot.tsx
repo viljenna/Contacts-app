@@ -59,7 +59,7 @@ const Lisatiedot : React.FC = () : React.ReactElement => {
             type : "image/jpeg"
         } as any)
 
-        let url : string = "http://192.168.68.58:3000/upload";
+        let url : string = "http://YOUR_IP_ADDRESS:3000/upload";
         let asetukset : any = {
             method: "POST",
             body: formData,
@@ -114,7 +114,7 @@ const Lisatiedot : React.FC = () : React.ReactElement => {
                                 <Text>Numero: {yhteystieto.numero}</Text>
                                 <Text>Osoite: {yhteystieto.osoite}</Text>
                                 <Image 
-                                    source={{uri: `http://192.168.68.58:3000/img/${yhteystieto.id}.jpg`}}
+                                    source={{uri: `http://YOUR_IP_ADDRESS:3000/img/${yhteystieto.id}.jpg`}}
                                     style={styles.kuva}
                                  />
                             </Dialog.Content>
