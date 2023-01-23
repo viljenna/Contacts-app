@@ -1,7 +1,7 @@
 # Contacts-app
 
 
-This is React Native app, that uses React Redux. User can add contacts and those will be saved to server. User can also take picture and delete contacts.
+This is React Native app, that uses React Redux and is written with TypeScript. User can add contacts and those will be saved to server. User can also take picture and delete contacts.
 
 
 ## Installation
@@ -9,10 +9,10 @@ First run npm install. After that go to /server and run npm install.
 Update your own ip address: 
 
 
--lisatiedot.tsx-file (lines 62 and 117)
+- lisatiedot.tsx-file (lines 62 and 117)
 
 
--yhteystiedotSlice.ts (lines 6 and 19)
+- yhteystiedotSlice.ts (lines 6 and 19)
 
 
 ## Run the code
