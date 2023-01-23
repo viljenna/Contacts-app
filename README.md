@@ -10,6 +10,8 @@ Update your own ip address:
 
 
 -lisatiedot.tsx-file (lines 62 and 117)
+
+
 -yhteystiedotSlice.ts (lines 6 and 19)
 
 
